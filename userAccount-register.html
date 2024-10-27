@@ -9,9 +9,10 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
-  <title>雪域狂歡</title>
-  <script type="module" crossorigin src="/Snow-Pick/assets/main-6c87ad25.js"></script>
-  <link rel="stylesheet" href="/Snow-Pick/assets/main-a0921774.css">
+  <link rel="icon" href="/Snow-Pick/assets/snowboarding-icon-d8a6949f.png" type="snowpick-icon" />
+  <title>會員註冊-雪域狂歡</title>
+  <script type="module" crossorigin src="/Snow-Pick/assets/main-3d0c2f37.js"></script>
+  <link rel="stylesheet" href="/Snow-Pick/assets/main-e3126145.css">
 </head>
 
 <body>
@@ -46,7 +47,7 @@
                 <div class="col-md-6">
                   <label class="form-label" for="account-register-chineseName">中文姓名<span
                       class="ms-1 text-danger">*</span></label>
-                  <input class="form-control" type="text" id="account-register-chineseName">
+                  <input class="form-control" type="text" id="account-register-chineseName" value="王怡蓁">
                 </div>
                 <div class="col-12 mt-0 d-md-none">
                   <span class="text-danger text-nowarp fs-9">*注意一旦送出註冊後，無法自行修改姓名資訊</span><br>
@@ -55,7 +56,7 @@
                 <div class="col-md-6">
                   <label class="form-label" for="account-register-passportNameEN">護照英文姓名<span
                       class="ms-1 text-danger">*</span></label>
-                  <input class="form-control" type="text" id="account-register-passportNameEN">
+                  <input class="form-control" type="text" id="account-register-passportNameEN" value="YI-CHEN WANG">
                 </div>
                 <div class="col-12 mt-0 d-none d-md-block">
                   <span class="text-danger text-nowarp fs-9">*注意一旦送出註冊後，無法自行修改姓名資訊</span><br>
@@ -66,14 +67,14 @@
                     <legend class="fs-8">性別</legend>
                     <div class="form-check-inline">
                       <input class="form-check-input" type="radio" name="account-register-gender"
-                        id="account-register-gender-male" checked>
+                        id="account-register-gender-male">
                       <label class="form-check-label" for="account-register-gender-male">
                         男性
                       </label>
                     </div>
                     <div class="form-check-inline">
                       <input class="form-check-input" type="radio" name="account-register-gender"
-                        id="account-register-gender-female">
+                        id="account-register-gender-female" checked>
                       <label class="form-check-label" for="account-register-gender-female">
                         女性
                       </label>
@@ -82,19 +83,19 @@
                 </div>
                 <div class="col-md-8">
                   <label class="form-label" for="account-register-birthday">生日</label>
-                  <input class="form-control" type="date" id="account-register-birthday">
+                  <input class="form-control" type="date" id="account-register-birthday" value="1999-01-01">
                   <span class="text-danger fs-9 d-none">無效的日期</span>
                 </div>
                 <div class="col-12">
                   <label class="form-label" for="account-register-email">電子信箱<span
                       class="ms-1 text-danger">*</span></label>
-                  <input class="form-control" type="email" id="account-register-email">
+                  <input class="form-control" type="email" id="account-register-email" value="yichen@gmail.com">
                   <span class="text-danger fs-9 d-none">錯誤的電子郵件格式</span>
                 </div>
                 <div class="col-md-6">
                   <label class="form-label" for="account-register-cellPhone">行動電話<span
                       class="ms-1 text-danger">*</span></label>
-                  <input class="form-control" type="tel" id="account-register-cellPhone">
+                  <input class="form-control" type="tel" id="account-register-cellPhone" value="0919999999">
                   <span class="text-danger fs-9 d-none">錯誤的行動電話格式</span>
                 </div>
                 <div class="col-md-6">
@@ -121,7 +122,7 @@
                     class="text-decoration-underline">雪域會員約定事項</a>和<a href="## "
                     class="text-decoration-underline">隱私權保護政策</a></label>
               </div>
-              <button class="register-nextStepBTN btn btn-primary-100 text-light mx-auto mt-4 mt-lg-6 rounded-2 ls-1" type="button"
+              <button class="register-nextStepBTN btn btn-primary-100 text-light mx-auto mt-4 mt-lg-6 rounded-2 ls-1 fs-lg-6" type="button"
                 id="register-nextStepBTN">下一步</button>
             </div>
             <div class="container d-flex flex-column d-none" id="register-skiSkillLV-page">
@@ -206,11 +207,10 @@
                       <td>可以在高階道(黑線)連續平行/併腿連續轉彎及其他進階技術
                       </td>
                     </tr>
-
                   </tbody>
                 </table>
               </div>
-              <a href="./userAccount-registerComplete.html" class="register-completeBTN btn btn-primary-100 text-light ms-auto rounded-2 ls-1">註冊</a>
+              <a href="./userAccount-registerComplete.html" class="register-completeBTN btn btn-primary-100 text-light ms-auto rounded-2 ls-1 fs-lg-6">註冊</a>
             </div>
           </form>
         </div>

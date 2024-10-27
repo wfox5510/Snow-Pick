@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+    <link rel="icon" href="/Snow-Pick/assets/snowboarding-icon-d8a6949f.png" type="snowpick-icon" />
     <!-- <link rel="stylesheet" href="..\assets\scss\layout\cssReset.css" /> -->
     <!-- <link rel="stylesheet" href="../assets/scss/pages/equipmentStyle.css" /> -->
-    <title>滑雪裝備一覽表</title>
-  <script type="module" crossorigin src="/Snow-Pick/assets/main-6c87ad25.js"></script>
-  <link rel="stylesheet" href="/Snow-Pick/assets/main-a0921774.css">
+    <title>滑雪裝備一覽表 | 苗場滑雪三日行</title>
+  <script type="module" crossorigin src="/Snow-Pick/assets/main-3d0c2f37.js"></script>
+  <link rel="stylesheet" href="/Snow-Pick/assets/main-e3126145.css">
 </head>
 <body>
 <!-- 匯入 -->
@@ -49,8 +50,8 @@
   </nav>
 </div>    <div class="container py-6 pb-lg-11 flex-fill d-flex flex-column justify-content-between align-items-start">
       <ul class="list-unstyled d-flex ls-1 mb-11 fs-9 fs-lg-8">
-        <li><a href="##" class="link-light">首頁</a><i class="bi bi-chevron-right text-light mx-2"></i></li>
-        <li><a href="##" class="link-light">日本</a><i class="bi bi-chevron-right text-light mx-2"></i></li>
+        <li><a href="index.html" class="link-light">首頁</a><i class="bi bi-chevron-right text-light mx-2"></i></li>
+        <li><a href="itinerary-overview.html" class="link-light">日本</a><i class="bi bi-chevron-right text-light mx-2"></i></li>
         <li><a href="##" class="link-light">苗場滑雪三日行｜單板初級</a></li>
       </ul>
       <span class="badge bg-danger lh-base mb-2 fs-9 fs-lg-8">已額滿</span>
@@ -75,7 +76,7 @@
           </span>
           <!--這裡有問題，為什麼要需要另外加me-6，看起來整個元素超出container了
            -->
-          <a href="##" class="btn btn-info-200 text-light fs-lg-6 lh-sm disabled">立即預訂</a>
+          <a href="cart-schedule.html" class="btn btn-info-200 text-light fs-lg-6 lh-sm disabled">立即預訂</a>
         </div>
       </div>
     </div>
@@ -92,13 +93,13 @@
             <a class="slide-link d-block w-100 py-4" href="./itineraryDetail-courseList.html">教學項目</a>
           </div>
           <div class="swiper-slide">
-            <a class="slide-link d-block w-100 py-4" href="##">費用說明</a>
+            <a class="slide-link d-block w-100 py-4" href="./itineraryDetail-feeDescription.html">費用說明</a>
           </div>
           <div class="swiper-slide">
-            <a class="slide-link d-block w-100 py-4 active" href="##">雪具裝備</a>
+            <a class="slide-link d-block w-100 py-4 active" href="./itineraryDetail-equipment.html">雪具裝備</a>
           </div>
           <div class="swiper-slide">
-            <a class="slide-link d-block w-100 py-4" href="##">注意事項</a>
+            <a class="slide-link d-block w-100 py-4" href="./itineraryDetail-notice.html">注意事項</a>
           </div>
         </div>
         <div class="itineraryDetail-swiper-next d-lg-none"><i class="bi bi-chevron-right"></i></div>
@@ -313,7 +314,7 @@
   </div>
 </section>
 <section>
-  <div class="container">
+  <div class="container mb-19">
       <div class="priceList">
           <h3 class="text-info-100">合作店家租借價目表</h3>
           <!--電腦版table-->
@@ -336,11 +337,11 @@
               </tr>
               <tr>
                   <th>孩童</th>
-                  <td>$450 / 日</td>
-                  <td>$450 / 日</td>
-                  <td>$150 / 日</td>
-                  <td>$250 / 日</td>
-                  <td>$210 / 日</td>
+                  <td>$300 / 日</td>
+                  <td>$300 / 日</td>
+                  <td>$100 / 日</td>
+                  <td>$100 / 日</td>
+                  <td>$100 / 日</td>
               </tr>
           </table>
 
@@ -354,34 +355,35 @@
               <tr>
                   <th>雪衣</th>
                   <td>$450 / 日</td>
-                  <td>$450 / 日</td>
+                  <td>$300 / 日</td>
               </tr>
               <tr>
                   <th>雪褲</th>
                   <td>$450 / 日</td>
-                  <td>$450 / 日</td>
+                  <td>$300 / 日</td>
               </tr>
               <tr>
                   <th>滑雪手套</th>
-                  <td>$450 / 日</td>
-                  <td>$450 / 日</td>
+                  <td>$150 / 日</td>
+                  <td>$100 / 日</td>
               </tr>
               <tr>
                   <th>護膝</th>
-                  <td>$450 / 日</td>
-                  <td>$450 / 日</td>
+                  <td>$250 / 日</td>
+                  <td>$100 / 日</td>
               </tr>
               <tr>
                   <th>防摔褲</th>
-                  <td>$450 / 日</td>
-                  <td>$450 / 日</td>
+                  <td>$210 / 日</td>
+                  <td>$100 / 日</td>
               </tr>
           </table>
       </div>
   </div>
 </section>
+<button class="back-to-top hidden back-to-top btn btn-primary-100 rounded-circle"><i class="bi bi-chevron-up text-white fs-6"></i></button>
 <div>
-    <div class="py-8 py-md-12 bg-white">
+    <div class="py-8 py-md-12 bg-primary-400">
     <div class="container">
         <div class="d-flex border-bottom border-info-300 pb-4 pb-md-8 mb-4 mb-md-8 flex-column flex-lg-row">
             <a href="../pages/index.html"><img src="/Snow-Pick/assets/logo_snow pick_footer-77a82d20.png" alt="icon" class="me-lg-12 me-xl-19 mb-4 mb-lg-0" style="width: 236px;"></a>
@@ -399,7 +401,8 @@
         <div class="d-flex justify-content-between flex-column flex-lg-row">
             <p class="mb-2 mb-lg-0">本網站僅供個人作品使用，不提供商業用途</p>
             <p>Copyright © 2024 oscar.</p>
-        </div>        
+        </div>
+        
     </div>
 </div></div>
     
